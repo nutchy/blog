@@ -1,7 +1,7 @@
 {
   "hosting": {
     "site": "nutchy-blog",
-    "public": "./docs/.vuepress/dist",
+    "public": "public",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
       {
