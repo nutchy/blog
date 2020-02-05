@@ -1,7 +1,7 @@
 {
   "hosting": {
-    "site": "spotify-dj-frontend",
-    "public": "dist",
+    "site": "nutchy-blog",
+    "public": "./docs/.vuepress/dist",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
       {
