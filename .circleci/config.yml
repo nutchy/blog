@@ -39,7 +39,7 @@ jobs:
 
       - run:
           name: Build
-          command: yarn build:docs
+          command: yarn build
       - run:
           name: Deploy
           command: ./node_modules/.bin/firebase deploy --only hosting:nutchy-blog --token=$FIREBASE_TOKEN
